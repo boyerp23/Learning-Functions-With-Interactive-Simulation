@@ -53,13 +53,13 @@ int main()
 	DisplayPlayerHealth();
 	system("pause");
 	// Start Find Food Scenario
-	int local1ResultScore = FindFoodScenario();
-	playersHealth = playersHealth + local1ResultScore;
+	localResultScore = FindFoodScenario();
+	playersHealth = playersHealth + localResultScore;
 	DisplayPlayerHealth();
 	system("pause");
 	// Start Find Intelligent Scenario
-	int local2ResultScore = FindIntelligentLifeScenario();
-	playersHealth = playersHealth + local2ResultScore;
+	localResultScore = FindIntelligentLifeScenario();
+	playersHealth = playersHealth + localResultScore;
 	DisplayPlayerHealth();
 	//Tell the user to exit when they are ready
 	cout << "\nWhen you're finished ";
